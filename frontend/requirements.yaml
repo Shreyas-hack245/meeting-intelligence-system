@@ -1,0 +1,22 @@
+packages:
+  "framer-motion": "Required for smooth page transitions, recording animations, and micro-interactions"
+  "@hello-pangea/dnd": "Required for the Kanban board drag-and-drop functionality"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility to efficiently merge Tailwind CSS classes"
+  "date-fns": "For formatting meeting times and dates"
+
+images:
+  - path: "artifacts/ai-meeting/public/images/login-bg.png"
+    description: "Abstract fluid gradient mesh background in deep indigo, violet, and electric blue, smooth and ethereal, modern SaaS feel"
+    aspect_ratio: "16:9"
+  - path: "artifacts/ai-meeting/public/images/logo.png"
+    description: "Minimalist geometric diamond logo in vibrant gradient indigo and purple, on transparent background"
+    aspect_ratio: "1:1"
+  - path: "artifacts/ai-meeting/public/images/avatar.png"
+    description: "Professional minimalist illustration of a person's face, vector art, flat colors, circular framing"
+    aspect_ratio: "1:1"
+
+notes:
+  - This is a frontend-only implementation with in-memory state as requested
+  - Using @hello-pangea/dnd for robust Kanban drag-and-drop
+  - Utilizing framer-motion for the 'Live Recording' pulse effect
