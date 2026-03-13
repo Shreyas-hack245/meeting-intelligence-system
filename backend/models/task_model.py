@@ -2,7 +2,6 @@ from pydantic import BaseModel
 from typing import List
 
 
-# Task model
 class Task(BaseModel):
     title: str
     description: str
@@ -11,7 +10,6 @@ class Task(BaseModel):
     status: str
 
 
-# Meeting analysis response model
 class MeetingAnalysis(BaseModel):
     meeting_summary: str
     discussion_points: List[str]
